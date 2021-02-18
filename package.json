@@ -4,7 +4,7 @@
   "description": "tool for code sum",
   "main": "index.js",
   "scripts": {
-    "start":"node ./app.js",
+    "start": "node ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/doubone/toolsCode/issues"
   },
-  "homepage": "https://github.com/doubone/toolsCode#readme"
+  "homepage": "https://github.com/doubone/toolsCode#readme",
+  "dependencies": {
+    "node-xlsx": "^0.16.1"
+  }
 }
