@@ -1,4 +1,4 @@
-downloadExcell(data) {
+function downloadExcell(data) {
     //输出base64编码
     function base64(s) {
         return window.btoa(unescape(encodeURIComponent(s)))
@@ -31,4 +31,5 @@ xmlns="http://www.w3.org/TR/REC-html40">
 </head><body><table>${str}</table></body></html>`
     //下载模板
     window.location.href = uri + base64(template)
-},
+}
+
